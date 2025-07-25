@@ -21,7 +21,7 @@ This is the frontend of the Online Library system built using **React** and **Vi
 ## 🚀 Live Demo
 
 Check out the live application here:  
-🔗 [https://frontend-eta-dusky-21.vercel.app/](https://frontend-eta-dusky-21.vercel.app/)
+🔗 [https://frontnd-eta-dusky-21.vercel.app/](https://frontend-eta-dusky-21.vercel.app/)
 # Online Library Frontend
 
 
