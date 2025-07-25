@@ -14,15 +14,16 @@ npm run dev
 # Online Library Frontend
 
 This is the frontend of the Online Library system built with React and Vite.
+# Online Library Frontend
+
+This is the frontend of the Online Library system built using **React** and **Vite**.
 
 ## 🚀 Live Demo
 
-🔗 Click here to view the live site](https://frontend-eta-dusky-21.vercel.app/)
+Check out the live application here:  
+🔗 [https://frontend-eta-dusky-21.vercel.app/](https://frontend-eta-dusky-21.vercel.app/)
+# Online Library Frontend
 
-## 🛠️ Tech Stack
 
-- React
-- Vite
-- Tailwind CSS (if used)
-- Hosted on Vercel
+
 
