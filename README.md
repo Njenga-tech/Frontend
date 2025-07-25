@@ -23,3 +23,18 @@ git clone https://github.com/Njenga-tech/Frontend.git
 cd Frontend
 npm install
 npm run dev
+# Online Library Frontend
+
+This is the frontend of the Online Library system built with React and Vite.
+
+## 🚀 Live Demo
+
+🔗 [Click here to view the live site](https://frontend-eta-dusky-21.vercel.app/)
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Tailwind CSS (if used)
+- Hosted on Vercel
+
