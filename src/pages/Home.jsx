@@ -1,7 +1,7 @@
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Link } from 'react-router-dom';
-import Categorycard from '../Components/Categorycard';
+import CategoryCard from '../Components/CategoryCard'; // ✅ Use PascalCase for imports
 
 export default function Home() {
   const categories = [
@@ -35,7 +35,7 @@ export default function Home() {
         {/* Slide 1 */}
         <div className="relative h-[80vh]">
           <img src="/image/open.jpg" alt="Slide 1" className="h-full w-full object-cover" />
-          <div className="absolute inset-0  bg-opacity-40 flex items-center justify-start px-8">
+          <div className="absolute inset-0 bg-opacity-40 flex items-center justify-start px-8">
             <div className="text-left max-w-xl text-black">
               <h2 className="text-3xl md:text-5xl font-bold mb-4">
                 Find The Perfect Book You Deserve
@@ -62,7 +62,7 @@ export default function Home() {
         {/* Slide 2 */}
         <div className="relative h-[80vh]">
           <img src="/image/books.jpg" alt="Slide 2" className="h-full w-full object-cover" />
-          <div className="absolute inset-0  bg-opacity-40 flex items-center justify-start px-8">
+          <div className="absolute inset-0 bg-opacity-40 flex items-center justify-start px-8">
             <div className="text-left max-w-xl text-blue-300">
               <h2 className="text-3xl md:text-5xl font-bold mb-4">
                 Discover New Books and Learn Anywhere
@@ -93,7 +93,7 @@ export default function Home() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {categories.map((category) => (
-          <Categorycard
+          <CategoryCard
             key={category.name}
             icon={category.icon}
             name={category.name}
@@ -108,7 +108,7 @@ export default function Home() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {trendingTopics.map((topic) => (
-          <Categorycard
+          <CategoryCard
             key={topic.name}
             icon={topic.icon}
             name={topic.name}
