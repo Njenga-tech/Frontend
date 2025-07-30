@@ -1,7 +1,7 @@
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Link } from 'react-router-dom';
-import CategoryCard from '../Components/CategoryCard';
+import Categorycard from '../Components/Categorycard';
 
 export default function Home() {
   const categories = [
@@ -93,7 +93,7 @@ export default function Home() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {categories.map((category) => (
-          <CategoryCard
+          <Categorycard
             key={category.name}
             icon={category.icon}
             name={category.name}
@@ -108,7 +108,7 @@ export default function Home() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {trendingTopics.map((topic) => (
-          <CategoryCard
+          <Categorycard
             key={topic.name}
             icon={topic.icon}
             name={topic.name}
