@@ -1,7 +1,8 @@
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Link } from 'react-router-dom';
-import CategoryCard from '../Components/CategoryCard'; // ✅ Use PascalCase for imports
+import CategoryCard from '../Components/CategoryCard';
+ // 
 
 export default function Home() {
   const categories = [
