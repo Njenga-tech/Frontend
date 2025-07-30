@@ -39,7 +39,7 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-3">Follow Us</h3>
           <div className="flex space-x-4 text-lg">
-            <a href="#" className="hover:text-white" aria-label="Facebook">🌐</a>
+            <a href="#" className="hover:text-white" aria-label="Facebook"></a>
             <a href="#" className="hover:text-white" aria-label="Twitter">🐦</a>
             <a href="#" className="hover:text-white" aria-label="Instagram">📸</a>
           </div>
